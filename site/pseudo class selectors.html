@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title >Pseudo class selectors </title>
+<style>
+header li {
+	list-style:none;
+}
+  a:link,a:visited {
+   text-decoration:none;
+   background-color:maroon;
+   border:1px solid pink ;
+   color :red;
+   display:block;
+   text-align:center;
+   width:250px;
+   margin-bottom:1px;
+  font-size:28px;
+  }
+
+
+a:hover ,a:active {
+	background-color: red;
+	color:violet;
+	font-size:40px;
+	}
+div:nth-child(odd){
+     background-color: yellow;
+     cursor:pointer;
+}
+div:nth-child(even){
+	background-color:orange;
+	}
+	</style>
+	</head>
+<body style="background-color:grey";>
+<h1 style="color:purple;"> Pseudo class selectors </h1>
+<header>
+  <ul>
+  <li><a href="/">Home</a></li>
+  
+  <li><a href="https://www.google.com/search?q=netflix&rlz=1C1CHBF_enIN868IN869&oq=netflix&aqs=chrome.0.69i59l2j35i39j0l4j5.3240j0j7&sourceid=chrome&ie=UTF-8"
+  target="_blank">Netflix </a></li>
+  
+  <li><a href="https://www.google.com/search?q=prime&rlz=1C1CHBF_enIN868IN869&oq=primw&aqs=chrome.1.69i57j0l7.2580j0j7&sourceid=chrome&ie=UTF-8"
+  target="_blank">Amazon prime </a></li>
+  </ul>
+  
+  <div>div1</div>
+  <div>div2</div>
+  <div>div3</div>
+  <div>div4</div>
+  <div>div5</div>
+  <div>div6</div>
+  
+  </html>
