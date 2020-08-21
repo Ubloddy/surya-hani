@@ -1,0 +1,29 @@
+*{
+ box-sizing: border-box;
+ padding;0px;
+ margin:10px;
+ background:pink;
+ }
+  body{
+    margin:0;
+	padding:0;
+	background:gray;
+	
+	}
+#box {
+	background:blue;
+	padding:10px;
+	border: 20px solid black;
+	margin:40px;
+	width:400px;
+	}
+#content {
+	background:maroon;
+	color:yellow;
+	height:40px;
+	overflow:auto;
+}
+h1 {
+	margin-bottom:100px;
+	background:yellow;
+	}
