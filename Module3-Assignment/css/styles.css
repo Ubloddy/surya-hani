@@ -1,0 +1,82 @@
+body
+	{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		background-color: whitesmoke;
+	}
+h1
+	{
+		font-weight:bold;
+		padding-left:20px;
+	}
+.navbar
+	{
+		border:3px solid black;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		padding:5px;
+		margin:0;
+		background-color:gray;
+	}
+#menu-button
+	{
+		position:absolute;
+		float:right;
+		right:10px;
+		top:5.5px;
+		border:2px solid black;
+	}
+.navbar-brand
+	{
+		padding-top:6px;
+	}
+.navbar-nav
+	{
+		width:100%;
+		border:0px solid black;
+		text-align:center;
+	}
+.navbar-collapse
+	{
+		background:#ffffff00;
+		width:100%;
+	}
+.nav-item
+	{
+		border:2px solid black;
+		width:100%;
+	}
+.nav-item1
+	{
+		border-bottom:none;
+	}
+.nav-item2
+	{
+		border-bottom:none;
+	}
+.nav-item3
+	{
+		
+	}
+#chicken-container
+	{
+		width:96%;
+		background:gray;
+		margin-top:40px;
+	}
+h2
+	{
+		padding-top:25px;
+		text-align:center;
+	}
+h3
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+		text-align:center;
+	}
+hr
+	{
+		margin:0px;
+		border-top-color:#343a40;
+	}
